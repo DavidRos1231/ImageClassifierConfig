@@ -1,0 +1,12 @@
+{
+    "devices": {
+        "R": "RTU",
+        "M": "Mini Split",
+        "P": "PTAC",
+        "C": "Central Unit",
+        "r": "RTU",
+        "m": "Mini Split",
+        "p": "PTAC",
+        "c": "Central Unit"
+    }
+}
