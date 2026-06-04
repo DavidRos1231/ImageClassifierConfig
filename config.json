@@ -18,7 +18,7 @@
         { "description": "Filter Condition", "np": false }
       ]
     },
-    "RTU": {
+    "Rooftop Unit": {
       "checklist": [
         { "description": "General View",     "np": false },
         { "description": "Nameplate",        "np": true  },
@@ -27,7 +27,7 @@
         { "description": "Drain Pan",        "np": false }
       ]
     },
-    "PTAC": {
+    "Packaged Terminal Air Conditioner": {
       "checklist": [
         { "description": "General View",     "np": false },
         { "description": "Nameplate",        "np": true  },
@@ -48,46 +48,46 @@
   "after": {
     "Wall Mount": {
       "checklist": [
-        { "description": "General View",      "np": false },
-        { "description": "Nameplate",         "np": true  },
-        { "description": "Thermostat",        "np": false },
-        { "description": "New Installation",  "np": false },
-        { "description": "Lineset",           "np": false }
+        { "description": "General View",     "np": false },
+        { "description": "Nameplate",        "np": true  },
+        { "description": "Thermostat",       "np": false },
+        { "description": "New Installation", "np": false },
+        { "description": "Lineset",          "np": false }
       ]
     },
     "Mini Split": {
       "checklist": [
-        { "description": "General View",      "np": false },
-        { "description": "Nameplate",         "np": true  },
-        { "description": "Indoor Unit",       "np": false },
-        { "description": "Outdoor Unit",      "np": false },
-        { "description": "New Installation",  "np": false },
-        { "description": "Lineset",           "np": false }
+        { "description": "General View",     "np": false },
+        { "description": "Nameplate",        "np": true  },
+        { "description": "Indoor Unit",      "np": false },
+        { "description": "Outdoor Unit",     "np": false },
+        { "description": "New Installation", "np": false },
+        { "description": "Lineset",          "np": false }
       ]
     },
-    "RTU": {
+    "Rooftop Unit": {
       "checklist": [
-        { "description": "General View",      "np": false },
-        { "description": "Nameplate",         "np": true  },
-        { "description": "Top of Unit",       "np": false },
-        { "description": "New Installation",  "np": false }
+        { "description": "General View",     "np": false },
+        { "description": "Nameplate",        "np": true  },
+        { "description": "Top of Unit",      "np": false },
+        { "description": "New Installation", "np": false }
       ]
     },
-    "PTAC": {
+    "Packaged Terminal Air Conditioner": {
       "checklist": [
-        { "description": "General View",      "np": false },
-        { "description": "Nameplate",         "np": true  },
-        { "description": "New Installation",  "np": false }
+        { "description": "General View",     "np": false },
+        { "description": "Nameplate",        "np": true  },
+        { "description": "New Installation", "np": false }
       ]
     },
     "Central Unit": {
       "checklist": [
-        { "description": "General View",      "np": false },
-        { "description": "Nameplate",         "np": true  },
-        { "description": "Air Handler",       "np": false },
-        { "description": "Condenser",         "np": false },
-        { "description": "New Installation",  "np": false },
-        { "description": "Thermostat",        "np": false }
+        { "description": "General View",     "np": false },
+        { "description": "Nameplate",        "np": true  },
+        { "description": "Air Handler",      "np": false },
+        { "description": "Condenser",        "np": false },
+        { "description": "New Installation", "np": false },
+        { "description": "Thermostat",       "np": false }
       ]
     }
   }
