@@ -1,12 +1,94 @@
 {
-    "devices": {
-        "R": "RTU",
-        "M": "Mini Split",
-        "P": "PTAC",
-        "C": "Central Unit",
-        "r": "RTU",
-        "m": "Mini Split",
-        "p": "PTAC",
-        "c": "Central Unit"
+  "before": {
+    "Wall Mount": {
+      "checklist": [
+        { "description": "General View",     "np": false },
+        { "description": "Nameplate",        "np": true  },
+        { "description": "Thermostat",       "np": false },
+        { "description": "Back of Unit",     "np": false },
+        { "description": "Filter Condition", "np": false }
+      ]
+    },
+    "Mini Split": {
+      "checklist": [
+        { "description": "General View",     "np": false },
+        { "description": "Nameplate",        "np": true  },
+        { "description": "Indoor Unit",      "np": false },
+        { "description": "Outdoor Unit",     "np": false },
+        { "description": "Filter Condition", "np": false }
+      ]
+    },
+    "RTU": {
+      "checklist": [
+        { "description": "General View",     "np": false },
+        { "description": "Nameplate",        "np": true  },
+        { "description": "Top of Unit",      "np": false },
+        { "description": "Filter Condition", "np": false },
+        { "description": "Drain Pan",        "np": false }
+      ]
+    },
+    "PTAC": {
+      "checklist": [
+        { "description": "General View",     "np": false },
+        { "description": "Nameplate",        "np": true  },
+        { "description": "Filter Condition", "np": false }
+      ]
+    },
+    "Central Unit": {
+      "checklist": [
+        { "description": "General View",     "np": false },
+        { "description": "Nameplate",        "np": true  },
+        { "description": "Air Handler",      "np": false },
+        { "description": "Condenser",        "np": false },
+        { "description": "Filter Condition", "np": false },
+        { "description": "Thermostat",       "np": false }
+      ]
     }
+  },
+  "after": {
+    "Wall Mount": {
+      "checklist": [
+        { "description": "General View",      "np": false },
+        { "description": "Nameplate",         "np": true  },
+        { "description": "Thermostat",        "np": false },
+        { "description": "New Installation",  "np": false },
+        { "description": "Lineset",           "np": false }
+      ]
+    },
+    "Mini Split": {
+      "checklist": [
+        { "description": "General View",      "np": false },
+        { "description": "Nameplate",         "np": true  },
+        { "description": "Indoor Unit",       "np": false },
+        { "description": "Outdoor Unit",      "np": false },
+        { "description": "New Installation",  "np": false },
+        { "description": "Lineset",           "np": false }
+      ]
+    },
+    "RTU": {
+      "checklist": [
+        { "description": "General View",      "np": false },
+        { "description": "Nameplate",         "np": true  },
+        { "description": "Top of Unit",       "np": false },
+        { "description": "New Installation",  "np": false }
+      ]
+    },
+    "PTAC": {
+      "checklist": [
+        { "description": "General View",      "np": false },
+        { "description": "Nameplate",         "np": true  },
+        { "description": "New Installation",  "np": false }
+      ]
+    },
+    "Central Unit": {
+      "checklist": [
+        { "description": "General View",      "np": false },
+        { "description": "Nameplate",         "np": true  },
+        { "description": "Air Handler",       "np": false },
+        { "description": "Condenser",         "np": false },
+        { "description": "New Installation",  "np": false },
+        { "description": "Thermostat",        "np": false }
+      ]
+    }
+  }
 }
