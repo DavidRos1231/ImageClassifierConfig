@@ -1,93 +1,94 @@
 {
   "before": {
-    "Wall Mount": {
-      "checklist": [
-        { "description": "General View",     "np": false },
-        { "description": "Nameplate",        "np": true  },
-        { "description": "Thermostat",       "np": false },
-        { "description": "Back of Unit",     "np": false },
-        { "description": "Filter Condition", "np": false }
-      ]
-    },
     "Mini Split": {
       "checklist": [
-        { "description": "General View",     "np": false },
+        { "description": "Wide View",     "np": false },
         { "description": "Nameplate",        "np": true  },
-        { "description": "Indoor Unit",      "np": false },
-        { "description": "Outdoor Unit",     "np": false },
-        { "description": "Filter Condition", "np": false }
+        { "description": "Thermostat",       "np": false },
+        { "description": "Condenser",     "np": false },
+        { "description": "Condenser NP", "np": true }
       ]
     },
-    "Rooftop Unit": {
+    "RTU": {
       "checklist": [
-        { "description": "General View",     "np": false },
-        { "description": "Nameplate",        "np": true  },
-        { "description": "Top of Unit",      "np": false },
-        { "description": "Filter Condition", "np": false },
-        { "description": "Drain Pan",        "np": false }
+        { "description": "Front View",     "np": false },
+        { "description": "Back View",      "np": false },
+	{ "description": "Nameplate",        "np": true  },
+        { "description": "Thermostat", "np": false }
       ]
     },
-    "Packaged Terminal Air Conditioner": {
+    "PTAC": {
       "checklist": [
-        { "description": "General View",     "np": false },
+        { "description": "Wide View",     "np": false },
         { "description": "Nameplate",        "np": true  },
-        { "description": "Filter Condition", "np": false }
+        { "description": "Plug or Not Plug", "np": false },
+	{ "description": "Thermostat", "np": false }
       ]
     },
     "Central Unit": {
       "checklist": [
-        { "description": "General View",     "np": false },
-        { "description": "Nameplate",        "np": true  },
-        { "description": "Air Handler",      "np": false },
+        { "description": "Indoor Unit",     "np": false },
+        { "description": "Furnace or Heat Pump NP","np": true  },
+        { "description": "Coil NP",      "np": true },
         { "description": "Condenser",        "np": false },
-        { "description": "Filter Condition", "np": false },
+        { "description": "Condenser NP", "np": true },
         { "description": "Thermostat",       "np": false }
+      ]
+    },
+ "Unknown": {
+      "checklist": [
+        { "description": "Unit Wideview",     "np": false },
+	{ "description": "Nameplate",        "np": true  },
+        { "description": "Thermostat", "np": false },
+	{ "description": "Installation Setting", "np": false }
       ]
     }
   },
   "after": {
-    "Wall Mount": {
-      "checklist": [
-        { "description": "General View",     "np": false },
-        { "description": "Nameplate",        "np": true  },
-        { "description": "Thermostat",       "np": false },
-        { "description": "New Installation", "np": false },
-        { "description": "Lineset",          "np": false }
-      ]
-    },
     "Mini Split": {
       "checklist": [
-        { "description": "General View",     "np": false },
-        { "description": "Nameplate",        "np": true  },
-        { "description": "Indoor Unit",      "np": false },
-        { "description": "Outdoor Unit",     "np": false },
-        { "description": "New Installation", "np": false },
-        { "description": "Lineset",          "np": false }
+        { "description": "Head Picture(s)",     "np": false },
+        { "description": "Head Nameplate(s)",        "np": true  },
+        { "description": "Thermostat or Controller",       "np": false },
+	{ "description": "Wifi Module",       "np": false },
+        { "description": "Condenser", "np": false },
+        { "description": "Condenser NP",          "np": true }
       ]
     },
     "Rooftop Unit": {
+  "checklist": [
+    { "description": "Wideview",                    "np": false },
+    { "description": "Nameplate",                          "np": true  },
+    { "description": "Thermostat",                      "np": false },
+    { "description": "Thermostat NP",                   "np": true  },
+    { "description": "Economizer",                      "np": false },
+    { "description": "Economizer Motherboard",          "np": false },
+    { "description": "DES Sensor",                      "np": false },
+    { "description": "Hammer Sensor (1 or 2)",          "np": false },
+    { "description": "Icon 2400 (if applicable)",       "np": false },
+    { "description": "Icon 3300 (if applicable)",       "np": false },
+    { "description": "Enthalpy Sensor (1 or 2)",        "np": false },
+    { "description": "CO2 Sensor",                      "np": false }
+  ]
+}
+    "PTAC": {
       "checklist": [
-        { "description": "General View",     "np": false },
+        { "description": "Wide View",     "np": false },
         { "description": "Nameplate",        "np": true  },
-        { "description": "Top of Unit",      "np": false },
-        { "description": "New Installation", "np": false }
-      ]
-    },
-    "Packaged Terminal Air Conditioner": {
-      "checklist": [
-        { "description": "General View",     "np": false },
-        { "description": "Nameplate",        "np": true  },
-        { "description": "New Installation", "np": false }
+        { "description": "Plug or Not Plug", "np": false },
+	{ "description": "Thermostat", "np": false }
+	{ "description": "Thermostat NP", "np": true }
       ]
     },
     "Central Unit": {
       "checklist": [
-        { "description": "General View",     "np": false },
-        { "description": "Nameplate",        "np": true  },
-        { "description": "Air Handler",      "np": false },
+        { "description": "Indoor Unit",     "np": false },
+        { "description": "Heat Pump or Furnace NP",        "np": true  },
+        { "description": "Coil NP",      "np": true },
         { "description": "Condenser",        "np": false },
-        { "description": "New Installation", "np": false },
-        { "description": "Thermostat",       "np": false }
+        { "description": "Condenser NP", "np": true },
+        { "description": "Thermostat",       "np": false },
+	{ "description": "Thermostat NP",       "np": true }
       ]
     }
   }
