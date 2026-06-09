@@ -2,93 +2,305 @@
   "before": {
     "Mini Split": {
       "checklist": [
-        { "description": "Wide View",            "np": false },
-        { "description": "Nameplate",            "np": true  },
-        { "description": "Thermostat",           "np": false },
-        { "description": "Condenser",            "np": false },
-        { "description": "Condenser NP",         "np": true  }
+        {
+          "description": "Wide View",
+          "np": false,
+          "mandatory": true
+        },
+        {
+          "description": "Nameplate",
+          "np": true,
+          "mandatory": true
+        },
+        {
+          "description": "Thermostat",
+          "np": false,
+          "mandatory": true
+        },
+        {
+          "description": "Condenser",
+          "np": false,
+          "mandatory": true
+        },
+        {
+          "description": "Condenser NP",
+          "np": true,
+          "mandatory": true
+        }
       ]
     },
     "RTU": {
       "checklist": [
-        { "description": "Front View",           "np": false },
-        { "description": "Back View",            "np": false },
-        { "description": "Nameplate",            "np": true  },
-        { "description": "Thermostat",           "np": false }
+        {
+          "description": "Front View",
+          "np": false,
+          "mandatory": true
+        },
+        {
+          "description": "Back View",
+          "np": false,
+          "mandatory": true
+        },
+        {
+          "description": "Nameplate",
+          "np": true,
+          "mandatory": true
+        },
+        {
+          "description": "Thermostat",
+          "np": false,
+          "mandatory": true
+        }
       ]
     },
     "PTAC": {
       "checklist": [
-        { "description": "Wide View",            "np": false },
-        { "description": "Nameplate",            "np": true  },
-        { "description": "Plug or Not Plug",     "np": false },
-        { "description": "Thermostat",           "np": false }
+        {
+          "description": "Wide View",
+          "np": false,
+          "mandatory": true
+        },
+        {
+          "description": "Nameplate",
+          "np": true,
+          "mandatory": true
+        },
+        {
+          "description": "Plug or Not Plug",
+          "np": false,
+          "mandatory": true
+        },
+        {
+          "description": "Thermostat",
+          "np": false,
+          "mandatory": true
+        }
       ]
     },
     "Central Unit": {
       "checklist": [
-        { "description": "Indoor Unit",                 "np": false },
-        { "description": "Furnace or Heat Pump NP",     "np": true  },
-        { "description": "Coil NP",                     "np": true  },
-        { "description": "Condenser",                   "np": false },
-        { "description": "Condenser NP",                "np": true  },
-        { "description": "Thermostat",                  "np": false }
+        {
+          "description": "Indoor Unit",
+          "np": false,
+          "mandatory": true
+        },
+        {
+          "description": "Furnace or Heat Pump NP",
+          "np": true,
+          "mandatory": true
+        },
+        {
+          "description": "Coil NP",
+          "np": true,
+          "mandatory": true
+        },
+        {
+          "description": "Condenser",
+          "np": false,
+          "mandatory": true
+        },
+        {
+          "description": "Condenser NP",
+          "np": true,
+          "mandatory": true
+        },
+        {
+          "description": "Thermostat",
+          "np": false,
+          "mandatory": true
+        }
       ]
     },
     "Unknown": {
       "checklist": [
-        { "description": "Unit Wideview",        "np": false },
-        { "description": "Nameplate",            "np": true  },
-        { "description": "Thermostat",           "np": false },
-        { "description": "Installation Setting", "np": false }
+        {
+          "description": "Unit Wideview",
+          "np": false,
+          "mandatory": true
+        },
+        {
+          "description": "Nameplate",
+          "np": true,
+          "mandatory": true
+        },
+        {
+          "description": "Thermostat",
+          "np": false,
+          "mandatory": true
+        },
+        {
+          "description": "Installation Setting",
+          "np": false,
+          "mandatory": true
+        }
       ]
     }
   },
   "after": {
     "Mini Split": {
       "checklist": [
-        { "description": "Head Picture(s)",          "np": false },
-        { "description": "Head Nameplate(s)",        "np": true  },
-        { "description": "Thermostat or Controller", "np": false },
-        { "description": "Wifi Module",              "np": false },
-        { "description": "Condenser",                "np": false },
-        { "description": "Condenser NP",             "np": true  }
+        {
+          "description": "Head Picture(s)",
+          "np": false,
+          "mandatory": true
+        },
+        {
+          "description": "Head Nameplate(s)",
+          "np": true,
+          "mandatory": true
+        },
+        {
+          "description": "Thermostat or Controller",
+          "np": false,
+          "mandatory": true
+        },
+        {
+          "description": "Wifi Module",
+          "np": false,
+          "mandatory": true
+        },
+        {
+          "description": "Condenser",
+          "np": false,
+          "mandatory": true
+        },
+        {
+          "description": "Condenser NP",
+          "np": true,
+          "mandatory": true
+        }
       ]
     },
     "Rooftop Unit": {
       "checklist": [
-        { "description": "Wideview",                      "np": false },
-        { "description": "Nameplate",                     "np": true  },
-        { "description": "Thermostat",                    "np": false },
-        { "description": "Thermostat NP",                 "np": true  },
-        { "description": "Economizer",                    "np": false },
-        { "description": "Economizer Motherboard",        "np": false },
-        { "description": "DES Sensor",                    "np": false },
-        { "description": "Hammer Sensor (1 or 2)",        "np": false },
-        { "description": "Icon 2400 (if applicable)",     "np": false },
-        { "description": "Icon 3300 (if applicable)",     "np": false },
-        { "description": "Enthalpy Sensor (1 or 2)",      "np": false },
-        { "description": "CO2 Sensor",                    "np": false }
+        {
+          "description": "Wideview",
+          "np": false,
+          "mandatory": true
+        },
+        {
+          "description": "Nameplate",
+          "np": true,
+          "mandatory": true
+        },
+        {
+          "description": "Thermostat",
+          "np": false,
+          "mandatory": true
+        },
+        {
+          "description": "Thermostat NP",
+          "np": true,
+          "mandatory": true
+        },
+        {
+          "description": "Economizer",
+          "np": false,
+          "mandatory": true
+        },
+        {
+          "description": "Economizer Motherboard",
+          "np": false,
+          "mandatory": true
+        },
+        {
+          "description": "DES Sensor",
+          "np": false,
+          "mandatory": true
+        },
+        {
+          "description": "Hammer Sensor (1 or 2)",
+          "np": false,
+          "mandatory": true
+        },
+        {
+          "description": "Icon 2400 (if applicable)",
+          "np": false,
+          "mandatory": false
+        },
+        {
+          "description": "Icon 3300 (if applicable)",
+          "np": false,
+          "mandatory": false
+        },
+        {
+          "description": "Enthalpy Sensor (1 or 2)",
+          "np": false,
+          "mandatory": true
+        },
+        {
+          "description": "CO2 Sensor",
+          "np": false,
+          "mandatory": true
+        }
       ]
     },
     "PTAC": {
       "checklist": [
-        { "description": "Wide View",            "np": false },
-        { "description": "Nameplate",            "np": true  },
-        { "description": "Plug or Not Plug",     "np": false },
-        { "description": "Thermostat",           "np": false },
-        { "description": "Thermostat NP",        "np": true  }
+        {
+          "description": "Wide View",
+          "np": false,
+          "mandatory": true
+        },
+        {
+          "description": "Nameplate",
+          "np": true,
+          "mandatory": true
+        },
+        {
+          "description": "Plug or Not Plug",
+          "np": false,
+          "mandatory": true
+        },
+        {
+          "description": "Thermostat",
+          "np": false,
+          "mandatory": true
+        },
+        {
+          "description": "Thermostat NP",
+          "np": true,
+          "mandatory": true
+        }
       ]
     },
     "Central Unit": {
       "checklist": [
-        { "description": "Indoor Unit",                "np": false },
-        { "description": "Heat Pump or Furnace NP",   "np": true  },
-        { "description": "Coil NP",                   "np": true  },
-        { "description": "Condenser",                 "np": false },
-        { "description": "Condenser NP",              "np": true  },
-        { "description": "Thermostat",                "np": false },
-        { "description": "Thermostat NP",             "np": true  }
+        {
+          "description": "Indoor Unit",
+          "np": false,
+          "mandatory": true
+        },
+        {
+          "description": "Heat Pump or Furnace NP",
+          "np": true,
+          "mandatory": true
+        },
+        {
+          "description": "Coil NP",
+          "np": true,
+          "mandatory": true
+        },
+        {
+          "description": "Condenser",
+          "np": false,
+          "mandatory": true
+        },
+        {
+          "description": "Condenser NP",
+          "np": true,
+          "mandatory": true
+        },
+        {
+          "description": "Thermostat",
+          "np": false,
+          "mandatory": true
+        },
+        {
+          "description": "Thermostat NP",
+          "np": true,
+          "mandatory": true
+        }
       ]
     }
   }
