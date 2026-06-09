@@ -137,6 +137,35 @@
     }
   },
   "after": {
+    "PTAC": {
+      "checklist": [
+        {
+          "description": "Wide View",
+          "np": false,
+          "mandatory": true
+        },
+        {
+          "description": "Nameplate",
+          "np": true,
+          "mandatory": true
+        },
+        {
+          "description": "Plug or Not Plug",
+          "np": false,
+          "mandatory": true
+        },
+        {
+          "description": "Thermostat",
+          "np": false,
+          "mandatory": true
+        },
+        {
+          "description": "Thermostat NP",
+          "np": true,
+          "mandatory": true
+        }
+      ]
+    },
     "Mini Split": {
       "checklist": [
         {
@@ -235,35 +264,7 @@
         }
       ]
     },
-    "PTAC": {
-      "checklist": [
-        {
-          "description": "Wide View",
-          "np": false,
-          "mandatory": true
-        },
-        {
-          "description": "Nameplate",
-          "np": true,
-          "mandatory": true
-        },
-        {
-          "description": "Plug or Not Plug",
-          "np": false,
-          "mandatory": true
-        },
-        {
-          "description": "Thermostat",
-          "np": false,
-          "mandatory": true
-        },
-        {
-          "description": "Thermostat NP",
-          "np": true,
-          "mandatory": true
-        }
-      ]
-    },
+    
     "Central Unit": {
       "checklist": [
         {
